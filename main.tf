@@ -7,9 +7,9 @@ terraform {
   }
   required_version = "> 0.14"
   backend "s3" {
-  bucket = "bucketthing"
-  key    = "terraform/webapp/terraform.tfstate"
-  region = "us-east-1"
+    bucket = "bucketthing"
+    key    = "terraform/webapp/terraform.tfstate"
+    region = "us-east-1"
 }
 }
 
