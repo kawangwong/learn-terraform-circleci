@@ -7,7 +7,7 @@ terraform {
   }
   required_version = "> 0.14"
   backend "s3" {
-  bucket = "	terramino.hashicorp.fun.3bb756bd-e0e2-51c1-373d-47fca7dffdee"
+  bucket = "bucketthing"
   key    = "terraform/webapp/terraform.tfstate"
   region = "us-east-1"
 }
